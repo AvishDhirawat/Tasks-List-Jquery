@@ -6,22 +6,18 @@ body {
 	/* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); */ /* Chrome 10-25, Safari 5.1-6 W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	font-family: 'Open Sans';
 }
-
 h3 {
 	text-align: center;
 	color: #f06933;
 }
-
 h2 {
 	font-family: 'Kaushan Script';
 	/* font-family: 'indie flower'; */
 	color: rgba(30, 87, 209, 0.836);
 }
-
 .fa-plus {
 	float: right;
 }
-
 .container {
 	width: 400px;
 	margin: 100px auto;
@@ -109,7 +105,6 @@ li:hover span{
 	/*border: 1px solid black;*/
 	/*Coz it's not really required though.*/
 /* }   */
-
 .completed {
 	text-decoration: line-through;
 	color: gray;
