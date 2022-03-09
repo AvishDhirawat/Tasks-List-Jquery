@@ -1,11 +1,11 @@
+
 $(".todoinput").keypress(function(event) {
 	if(event.which === 13) {
 		if($(this).val()==="") return;
-		$("ul").prepend("<li><span class='left'><i class='fa fa-trash'></i></span> <span class='text'> "+$(this).val()+"</span><span class='right'><i class='fa fa-pencil'></li>");
+		$("ul").prepend("<li><span class='left'><i class='fa fa-trash'></i></span> <span class='text'> "+$(this).val()+"</span><span class='right'><i class='fa fa-pencil'></li>"); // For Dynamic code Completion
 		$(this).val("");
 	}
 });
-
 $(".fa-plus").on("click", function() {
 	$("input").slideToggle();
 });
