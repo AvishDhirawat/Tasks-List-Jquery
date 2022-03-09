@@ -1,0 +1,116 @@
+body {
+	background: url("../media/memphis-mini-dark.png");  /* fallback for old browsers */
+	color: fff;
+	/* background: -webkit-linear-gradient(left, #24243e, #302b63, #0f0c29); */
+	/* background: -o-linear-gradient(left, #24243e, #302b63, #0f0c29); */
+	/* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); */ /* Chrome 10-25, Safari 5.1-6 W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Open Sans';
+}
+
+h3 {
+	text-align: center;
+	color: #f06933;
+}
+
+h2 {
+	font-family: 'Kaushan Script';
+	/* font-family: 'indie flower'; */
+	color: rgba(30, 87, 209, 0.836);
+}
+
+.fa-plus {
+	float: right;
+}
+
+.container {
+	width: 400px;
+	margin: 100px auto;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+li {
+	font-family: 'indie flower';
+	height: 40px;
+	line-height: 40px;
+	color: rgb(123, 241, 45);
+}
+
+li:nth-child(2n) {
+	font-family: 'indie flower';
+	background: rgba(123,123,123,0.5);
+}
+
+.left {
+	background: #e74c3c;
+	height: 40px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	width: 0; 
+	opacity: 0;
+	transition: 0.2s linear;
+}
+
+.right {
+	background: #e74c3c;
+	height: 40px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	width: 0; 
+	opacity: 0;
+	transition: 0.2s linear;
+	position: absolute;
+	right: 0px;
+}
+
+li:hover span{
+	width: 35px;
+	opacity: 1;
+}
+
+.todoinput {
+	width: 100%;
+	font-size: 18px;
+	padding: 10px 10px 10px 15px;
+	outline: none;
+	/*box-sizing: border-box; <-- This isn't really required for our code*/
+}
+
+.editinput {
+	height: 100%;
+	width: 100%;
+	outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	/* font-family: 'Dancing Script'; */
+	font-family: Comic Sans MS;
+	color: rgb(241, 72, 72);
+	opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: rgb(243, 72, 72);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+	color: rgb(245, 70, 70);
+  }
+
+
+/* input:focus { */
+	/*border: 1px solid black;*/
+	/*Coz it's not really required though.*/
+/* }   */
+
+.completed {
+	text-decoration: line-through;
+	color: gray;
+}
